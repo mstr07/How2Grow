@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtlasActivity">
+
+    <Button
+        android:id="@+id/button_chest"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Chest"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ham"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Hamstrings"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_quad" />
+
+    <Button
+        android:id="@+id/button_delts"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Shoulders"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_back" />
+
+    <Button
+        android:id="@+id/button_triceps"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Triceps"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_biceps" />
+
+    <Button
+        android:id="@+id/button_quad"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Quadriceps"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_triceps" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Back"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_chest" />
+
+    <Button
+        android:id="@+id/button_biceps"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Biceps"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_delts" />
+
+    <Button
+        android:id="@+id/button_brzuch"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:text="Abdominals"
+        android:textSize="19dp"
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ham" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="107dp"
+        android:layout_height="61dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_chest"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chest" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_back"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_delts"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/shoulders" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_biceps"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/bi" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_triceps"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/tri" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_quad"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/quad" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_ham"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/hams" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_brzuch"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/abs" />
+</androidx.constraintlayout.widget.ConstraintLayout>
